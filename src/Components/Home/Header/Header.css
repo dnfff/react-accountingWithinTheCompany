@@ -1,0 +1,111 @@
+:root {
+    --v: calc(1vh + 1vw);
+}
+
+.header {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+}
+
+.header__leftButtons {
+    height: calc(var(--v) * 1.5);
+    width: calc(var(--v) * 10);
+    display: flex;
+    /* justify-content:space-around; */
+    align-items: center;
+    box-shadow: 2px 2px 1px rgb(0, 0, 0);
+    border: 1.5px solid #000000;
+    overflow: hidden;
+}
+
+.left {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__a1 {
+    height: 100%;
+    width: 100%;
+    padding: 3px;
+    font-size: calc(var(--v) * 0.8);
+    cursor: pointer;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgcolor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(97, 143, 230) !important;
+    transition: all .5s;
+}
+
+.line {
+    border: 1px solid #000;
+    height: 100%;
+}
+
+.header__a2 {
+    height: 100%;
+    width: 100%;
+    padding: 3px;
+    font-size: calc(var(--v) * 0.8);
+    cursor: pointer;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__rightButtons {
+    font-size: calc(var(--v)* 0.8);
+}
+
+.header__rightButtons input {
+    height: calc(var(--v) * 1.5) ;
+    width: calc(var(--v) * 8);
+    border: 1.5px solid #000000;
+    margin-right: 10px;    
+    padding: 2px;
+}
+
+.header__btn {
+    border: 1.5px solid #000000;
+    padding: 3px 8px;
+    font-size: calc(var(--v)* 0.8);
+    font-weight: 600;
+    box-shadow: 2px 2px 1px rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.inputValue {
+    position: absolute;
+    background-color:#000000;
+    color: aliceblue;
+    padding: 10px;
+}
+
+.inputValue2 {
+    position: absolute;
+    margin-top: 1px;
+    color: aliceblue;
+    padding: 10px;
+}

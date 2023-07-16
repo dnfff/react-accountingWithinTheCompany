@@ -1,0 +1,44 @@
+:root {
+    --v: calc(1vh + 1vw);
+}
+
+.footer {
+    height: calc(var(--v) * 4.5);
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.footer__buttons {
+    /* height: calc(var(--v) * 1.5);
+    width: calc(var(--v) * 5); */
+    color: #000000;
+    box-shadow: 2px 2px 2px #000;
+    display: flex;
+}
+
+.footer__buttons div {
+    border: 1px solid black;
+    /* height: calc(var(--v) * 1.5);
+    width: calc(var(--v) * 2); */
+    font-size: calc(var(--v) * 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.footer__a1 {
+    background-color: rgb(255, 255, 255);
+    color: #000;
+    display: flex;
+}
+
+.aaa {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
